@@ -245,11 +245,3 @@ moneyline.p <- function(p0, f0=FALSE) {
   return(o0 * ifelse(f0, 1, 100))
 }
 
-
-#' Returns an odds-against calculation
-#' 
-#' p0 is a probability. Works for vectors too.
-#' @export
-df.unfactor <- function(tbl) {
-  
-}
